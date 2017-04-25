@@ -1,6 +1,6 @@
 # npmtest-seedrandom
 
-#### test coverage for  [seedrandom (v2.4.3)](http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html)  [![npm package](https://img.shields.io/npm/v/npmtest-seedrandom.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-seedrandom) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-seedrandom.svg)](https://travis-ci.org/npmtest/node-npmtest-seedrandom)
+#### basic test coverage for  [seedrandom (v2.4.3)](http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html)  [![npm package](https://img.shields.io/npm/v/npmtest-seedrandom.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-seedrandom) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-seedrandom.svg)](https://travis-ci.org/npmtest/node-npmtest-seedrandom)
 
 #### Seeded random number generator for Javascript.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-seedrandom/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-seedrandom/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-seedrandom/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-seedrandom/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-seedrandom/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-seedrandom/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-seedrandom/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-seedrandom/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-seedrandom/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-seedrandom/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-seedrandom/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-seedrandom/build/coverage.html/index.html)
 
@@ -102,7 +102,8 @@
     "scripts": {
         "test": "grunt travis"
     },
-    "version": "2.4.3"
+    "version": "2.4.3",
+    "bin": {}
 }
 ```
 

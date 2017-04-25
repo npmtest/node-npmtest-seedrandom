@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [seedrandom (v2.4.3)](http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html)  [![npm package](https://img.shields.io/npm/v/npmtest-seedrandom.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-seedrandom) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-seedrandom.svg)](https://travis-ci.org/npmtest/node-npmtest-seedrandom)",
+    "description": "#### basic test coverage for  [seedrandom (v2.4.3)](http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html)  [![npm package](https://img.shields.io/npm/v/npmtest-seedrandom.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-seedrandom) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-seedrandom.svg)](https://travis-ci.org/npmtest/node-npmtest-seedrandom)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "seedrandom": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }
